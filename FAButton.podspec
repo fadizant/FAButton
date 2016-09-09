@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FAButton'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of FAButton.'
+  s.version          = '0.1.1'
+  s.summary          = 'add image loader for button'
 
   s.homepage         = 'https://github.com/fadizant/FAButton'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -22,9 +22,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'FAButton/Classes/**/*'
   
-   s.resource_bundles = {
-     'FAButton' => ['FAButton/Assets/*.png']
-   }
+  # s.resource_bundles = {
+  #    'FAButton' => ['FAButton/Assets/*.png']
+  #  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

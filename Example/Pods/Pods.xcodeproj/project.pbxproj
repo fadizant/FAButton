@@ -7,48 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D6E3B141D834BF300961967 /* FACircleUIButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D6E3B121D834BF300961967 /* FACircleUIButton.h */; };
-		0D6E3B151D834BF300961967 /* FACircleUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6E3B131D834BF300961967 /* FACircleUIButton.m */; };
 		30C3B76AB6ADF109E873ADF0DD195A43 /* Pods-FAButton_Example-FAButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1555C0C8A094E535A4023E7E0B36D63 /* Pods-FAButton_Example-FAButton_Tests-dummy.m */; };
+		4234E1E040CEB7D86CDF6F4322C7A6AE /* UIButton+FAImageFromURL.m in Sources */ = {isa = PBXBuildFile; fileRef = D433713EF8E8974BDBC48415ED124822 /* UIButton+FAImageFromURL.m */; };
 		52BF35BCDDACC6D51F4145943244C0D4 /* Pods-FAButton_Example-FAButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A7A4362254199C7093CA920EF13513C /* Pods-FAButton_Example-FAButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F3C3CADE2D9DC736B2BB2D0FAA06CA1 /* FAButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E848DAE29DE7B3966751FBF2DBDDB34 /* FAButton-dummy.m */; };
-		71D594AAEA0F19C29C5017DEEDB02D60 /* FAButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E00FADF54617D94F26A42347AAE6D43 /* FAButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6571FD08E37F4209CBFE57C359ECD7C9 /* FAButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E00FADF54617D94F26A42347AAE6D43 /* FAButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CD0CD484F7B8682C9562E235B3180F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		94D5CCF27A2A1F51457782328992B440 /* FAButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 237418B7F97EE434F9DCD4D79A8785E6 /* FAButton.bundle */; };
 		A3DA5221CD343C00603C1685B47CA392 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		B513DBC11F30B64F05595A5C3A1FDB24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		D41A942939A11E431F639665206C6656 /* FAButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 237418B7F97EE434F9DCD4D79A8785E6 /* FAButton.bundle */; };
+		A5A57C0763CCD129AA2A5E8D3C717E74 /* FAButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E848DAE29DE7B3966751FBF2DBDDB34 /* FAButton-dummy.m */; };
+		A8BC30A9E854C4A856C9EECEBB305018 /* FACircleUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FB425CFF8E3D350EB9250BEDFFC29520 /* FACircleUIButton.m */; };
+		D18BD8ADD4903127A3BDBFECC0D0973E /* UIButton+FAImageFromURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AD12DD903E012670EB9EF691F8CBE8A /* UIButton+FAImageFromURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E90CB7E13C14A4B23AD0432CD461BFDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		EA5FEE44CAF0BFC114C546665AD8C34F /* FACircleUIButton.h in Headers */ = {isa = PBXBuildFile; fileRef = EF192241AF98A494A3BAD6EB65EB2D35 /* FACircleUIButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3A1D1EB5EF7DE12C6B551B0707DFD73 /* Pods-FAButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85934E3EDDAAE28A903C111C05C0D94D /* Pods-FAButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FFE5C605C84694DAA9A1E676219C70D8 /* Pods-FAButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F44197C9B1F0F8DA47B3DDBD7F2019F /* Pods-FAButton_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		57285FB2DC343BB36B3645D77E4711DF /* PBXContainerItemProxy */ = {
+		2CCC8A46AB3945BB8D4A9C721180DEF5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 40E352B1219F2C83FF377165879AE434;
+			remoteGlobalIDString = F1E63BAB44D3E625E09041BF83685AA4;
 			remoteInfo = "FAButton-FAButton";
 		};
 		5E1DDF10AE0EA122CF60F428276ED745 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EF9FD9A579ED875FCCED63B4817A87D8;
+			remoteGlobalIDString = F95EE5C1A2DF37F85ECF7214A9787002;
 			remoteInfo = FAButton;
 		};
 		F861EADDFE4D0719E004124905ED78C9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EF9FD9A579ED875FCCED63B4817A87D8;
+			remoteGlobalIDString = F95EE5C1A2DF37F85ECF7214A9787002;
 			remoteInfo = FAButton;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		02E0EE4E9979FD3D56721606605AABF7 /* Pods-FAButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FAButton_Example-resources.sh"; sourceTree = "<group>"; };
-		0D6E3B121D834BF300961967 /* FACircleUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FACircleUIButton.h; sourceTree = "<group>"; };
-		0D6E3B131D834BF300961967 /* FACircleUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FACircleUIButton.m; sourceTree = "<group>"; };
 		1343143719B3635C6AD18AF60E8DCE6A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1659D3F24B9FEB3E25CBF656E5C7EFDB /* Pods-FAButton_Example-FAButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAButton_Example-FAButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		183FFE58297AEF7ED1B8F10DCE055572 /* Pods-FAButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -57,6 +57,7 @@
 		237418B7F97EE434F9DCD4D79A8785E6 /* FAButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FAButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		287AFCF2882FCAA6949A5432999EBC6D /* Pods-FAButton_Example-FAButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FAButton_Example-FAButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2941845691B035E65EF663A316B16FF7 /* Pods-FAButton_Example-FAButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FAButton_Example-FAButton_Tests.modulemap"; sourceTree = "<group>"; };
+		2AD12DD903E012670EB9EF691F8CBE8A /* UIButton+FAImageFromURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+FAImageFromURL.h"; sourceTree = "<group>"; };
 		2C61563775C2B88D84129075919FFC6B /* Pods-FAButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FAButton_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3A7A4362254199C7093CA920EF13513C /* Pods-FAButton_Example-FAButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FAButton_Example-FAButton_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3EF8B399568ECE52223EAE8CA457B552 /* FAButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FAButton.modulemap; sourceTree = "<group>"; };
@@ -79,8 +80,11 @@
 		B3F0716635278A9BD1ABF8DE5A9641F9 /* Pods-FAButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FAButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D2883FFFF9AB5AF29C2DAAC193C91D66 /* Pods-FAButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D433713EF8E8974BDBC48415ED124822 /* UIButton+FAImageFromURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FAImageFromURL.m"; sourceTree = "<group>"; };
+		EF192241AF98A494A3BAD6EB65EB2D35 /* FACircleUIButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FACircleUIButton.h; sourceTree = "<group>"; };
 		F1555C0C8A094E535A4023E7E0B36D63 /* Pods-FAButton_Example-FAButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FAButton_Example-FAButton_Tests-dummy.m"; sourceTree = "<group>"; };
 		F15880B9D3579543241B03C08BF45119 /* Pods-FAButton_Example-FAButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAButton_Example-FAButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB425CFF8E3D350EB9250BEDFFC29520 /* FACircleUIButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FACircleUIButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,11 +96,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		853B4ADACBE5F12D6087C80109CECB0F /* Frameworks */ = {
+		91968426C4FBB913AD0AC4CB763CC486 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B513DBC11F30B64F05595A5C3A1FDB24 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,10 +111,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4D9DB784169B2979F80C2E318DF1F97 /* Frameworks */ = {
+		B1A9F53CDBFBBAF9365D709CCF204B51 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CD0CD484F7B8682C9562E235B3180F7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +138,14 @@
 			);
 			name = "Pods-FAButton_Example-FAButton_Tests";
 			path = "Target Support Files/Pods-FAButton_Example-FAButton_Tests";
+			sourceTree = "<group>";
+		};
+		21588BB2F694E29536D39059EE743E10 /* FAButton */ = {
+			isa = PBXGroup;
+			children = (
+				7FBC940917B9F4124A326E89A8F2A47D /* Classes */,
+			);
+			path = FAButton;
 			sourceTree = "<group>";
 		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
@@ -174,7 +186,7 @@
 		58891E7DFE43AD32122A015ABD06EA05 /* FAButton */ = {
 			isa = PBXGroup;
 			children = (
-				82995395F655F0D8A9A3DC19B459A71D /* FAButton */,
+				21588BB2F694E29536D39059EE743E10 /* FAButton */,
 				ABB625376A293D76AE04AF7ADCDB8E17 /* Support Files */,
 			);
 			name = FAButton;
@@ -203,19 +215,13 @@
 			);
 			sourceTree = "<group>";
 		};
-		82995395F655F0D8A9A3DC19B459A71D /* FAButton */ = {
+		7FBC940917B9F4124A326E89A8F2A47D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				884789AF215401B4F6C27E63702B1B73 /* Classes */,
-			);
-			path = FAButton;
-			sourceTree = "<group>";
-		};
-		884789AF215401B4F6C27E63702B1B73 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				0D6E3B121D834BF300961967 /* FACircleUIButton.h */,
-				0D6E3B131D834BF300961967 /* FACircleUIButton.m */,
+				EF192241AF98A494A3BAD6EB65EB2D35 /* FACircleUIButton.h */,
+				FB425CFF8E3D350EB9250BEDFFC29520 /* FACircleUIButton.m */,
+				2AD12DD903E012670EB9EF691F8CBE8A /* UIButton+FAImageFromURL.h */,
+				D433713EF8E8974BDBC48415ED124822 /* UIButton+FAImageFromURL.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -254,12 +260,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		327C1BF362D749DD2F2997BF779F7F77 /* Headers */ = {
+		B39F0475AF98072F213342676ED3247D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71D594AAEA0F19C29C5017DEEDB02D60 /* FAButton-umbrella.h in Headers */,
-				0D6E3B141D834BF300961967 /* FACircleUIButton.h in Headers */,
+				6571FD08E37F4209CBFE57C359ECD7C9 /* FAButton-umbrella.h in Headers */,
+				EA5FEE44CAF0BFC114C546665AD8C34F /* FACircleUIButton.h in Headers */,
+				D18BD8ADD4903127A3BDBFECC0D0973E /* UIButton+FAImageFromURL.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,23 +307,6 @@
 			productReference = 817D64CD6954B25F9DB0F672AB79EE27 /* Pods_FAButton_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		40E352B1219F2C83FF377165879AE434 /* FAButton-FAButton */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 17A7FF8F567E454229764C2B5E1B4DE1 /* Build configuration list for PBXNativeTarget "FAButton-FAButton" */;
-			buildPhases = (
-				B59FEE8D4CB5FE0A4A0F966C9C163D86 /* Sources */,
-				C4D9DB784169B2979F80C2E318DF1F97 /* Frameworks */,
-				9F3E34DF44E2CEFA904B78B44487FEFE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "FAButton-FAButton";
-			productName = "FAButton-FAButton";
-			productReference = 237418B7F97EE434F9DCD4D79A8785E6 /* FAButton.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 		768E777ED11D30FFB42C032DEBE399CE /* Pods-FAButton_Example-FAButton_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8471081C003635D335416F0F15651081 /* Build configuration list for PBXNativeTarget "Pods-FAButton_Example-FAButton_Tests" */;
@@ -335,19 +325,36 @@
 			productReference = 22A0AAB5DD88F5A530DEF6B9B9C90333 /* Pods_FAButton_Example_FAButton_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EF9FD9A579ED875FCCED63B4817A87D8 /* FAButton */ = {
+		F1E63BAB44D3E625E09041BF83685AA4 /* FAButton-FAButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 337957C034A5EE6F09301AC93176CF10 /* Build configuration list for PBXNativeTarget "FAButton" */;
+			buildConfigurationList = F9AF9FAB9620264BAF26063D57B686CC /* Build configuration list for PBXNativeTarget "FAButton-FAButton" */;
 			buildPhases = (
-				AE0A151A1D1325B9C4124A82953FC3DE /* Sources */,
-				853B4ADACBE5F12D6087C80109CECB0F /* Frameworks */,
-				6E002F223351E9D62CAD998C691E1863 /* Resources */,
-				327C1BF362D749DD2F2997BF779F7F77 /* Headers */,
+				5FE02818EC12FAF303F150AD1F2CF9FB /* Sources */,
+				91968426C4FBB913AD0AC4CB763CC486 /* Frameworks */,
+				1296725C0C9E46A8401AB2ED3F857115 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				26C2B235262617B525EF0624BA2EEC3A /* PBXTargetDependency */,
+			);
+			name = "FAButton-FAButton";
+			productName = "FAButton-FAButton";
+			productReference = 237418B7F97EE434F9DCD4D79A8785E6 /* FAButton.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F95EE5C1A2DF37F85ECF7214A9787002 /* FAButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884B520B0BCA0FF7B71940C8E4021C19 /* Build configuration list for PBXNativeTarget "FAButton" */;
+			buildPhases = (
+				5FA2C972EAAFF6664C41A1C9D27C3B1D /* Sources */,
+				B1A9F53CDBFBBAF9365D709CCF204B51 /* Frameworks */,
+				71F8625BEB9375DDCF17835C9D026F52 /* Resources */,
+				B39F0475AF98072F213342676ED3247D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F400BE8E2FE27D72DA8F5C80AB3A1B9 /* PBXTargetDependency */,
 			);
 			name = FAButton;
 			productName = FAButton;
@@ -375,8 +382,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF9FD9A579ED875FCCED63B4817A87D8 /* FAButton */,
-				40E352B1219F2C83FF377165879AE434 /* FAButton-FAButton */,
+				F95EE5C1A2DF37F85ECF7214A9787002 /* FAButton */,
+				F1E63BAB44D3E625E09041BF83685AA4 /* FAButton-FAButton */,
 				2D9A887CF9E6ADB5BA9FC5209E583F47 /* Pods-FAButton_Example */,
 				768E777ED11D30FFB42C032DEBE399CE /* Pods-FAButton_Example-FAButton_Tests */,
 			);
@@ -384,18 +391,18 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6E002F223351E9D62CAD998C691E1863 /* Resources */ = {
+		1296725C0C9E46A8401AB2ED3F857115 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D41A942939A11E431F639665206C6656 /* FAButton.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F3E34DF44E2CEFA904B78B44487FEFE /* Resources */ = {
+		71F8625BEB9375DDCF17835C9D026F52 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94D5CCF27A2A1F51457782328992B440 /* FAButton.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,16 +417,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE0A151A1D1325B9C4124A82953FC3DE /* Sources */ = {
+		5FA2C972EAAFF6664C41A1C9D27C3B1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D6E3B151D834BF300961967 /* FACircleUIButton.m in Sources */,
-				6F3C3CADE2D9DC736B2BB2D0FAA06CA1 /* FAButton-dummy.m in Sources */,
+				A5A57C0763CCD129AA2A5E8D3C717E74 /* FAButton-dummy.m in Sources */,
+				A8BC30A9E854C4A856C9EECEBB305018 /* FACircleUIButton.m in Sources */,
+				4234E1E040CEB7D86CDF6F4322C7A6AE /* UIButton+FAImageFromURL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B59FEE8D4CB5FE0A4A0F966C9C163D86 /* Sources */ = {
+		5FE02818EC12FAF303F150AD1F2CF9FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -437,22 +445,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		26C2B235262617B525EF0624BA2EEC3A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "FAButton-FAButton";
-			target = 40E352B1219F2C83FF377165879AE434 /* FAButton-FAButton */;
-			targetProxy = 57285FB2DC343BB36B3645D77E4711DF /* PBXContainerItemProxy */;
-		};
 		514D805411D98F8C579337BB6F554EE5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FAButton;
-			target = EF9FD9A579ED875FCCED63B4817A87D8 /* FAButton */;
+			target = F95EE5C1A2DF37F85ECF7214A9787002 /* FAButton */;
 			targetProxy = F861EADDFE4D0719E004124905ED78C9 /* PBXContainerItemProxy */;
+		};
+		5F400BE8E2FE27D72DA8F5C80AB3A1B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FAButton-FAButton";
+			target = F1E63BAB44D3E625E09041BF83685AA4 /* FAButton-FAButton */;
+			targetProxy = 2CCC8A46AB3945BB8D4A9C721180DEF5 /* PBXContainerItemProxy */;
 		};
 		DCCBDC30F3EF90B009358B63135FDBDF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FAButton;
-			target = EF9FD9A579ED875FCCED63B4817A87D8 /* FAButton */;
+			target = F95EE5C1A2DF37F85ECF7214A9787002 /* FAButton */;
 			targetProxy = 5E1DDF10AE0EA122CF60F428276ED745 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -496,52 +504,6 @@
 			};
 			name = Release;
 		};
-		1488A4A75096E035C09190EA24C61FB9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A321F6DEE81BA7F5013C1660A97E601C /* FAButton.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FAButton/FAButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FAButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FAButton/FAButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FAButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2541B58B4B8F752C9F558EEE57BB202D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A321F6DEE81BA7F5013C1660A97E601C /* FAButton.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FAButton";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/FAButton/ResourceBundle-FAButton-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = FAButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		38D24C12B7F4DCD39D9B58488B3D27D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F15880B9D3579543241B03C08BF45119 /* Pods-FAButton_Example-FAButton_Tests.debug.xcconfig */;
@@ -575,23 +537,6 @@
 			};
 			name = Debug;
 		};
-		67459AB2BFAD3A1212606BEB4380E1A8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A321F6DEE81BA7F5013C1660A97E601C /* FAButton.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FAButton";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/FAButton/ResourceBundle-FAButton-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = FAButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		6E58C9F8DBA54A16405322E0CB8A34AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 183FFE58297AEF7ED1B8F10DCE055572 /* Pods-FAButton_Example.debug.xcconfig */;
@@ -622,6 +567,40 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7B4ACC1DC7030B9BDDFA3033C24D8EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A321F6DEE81BA7F5013C1660A97E601C /* FAButton.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FAButton";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/FAButton/ResourceBundle-FAButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FAButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		99DB4796CA1E01887805DC86728AA745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A321F6DEE81BA7F5013C1660A97E601C /* FAButton.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FAButton";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/FAButton/ResourceBundle-FAButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FAButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -700,7 +679,36 @@
 			};
 			name = Release;
 		};
-		D9A5A1D2B34C85A88F063F522443ECE5 /* Debug */ = {
+		E90567B3FA721CBE07E4905C79A050D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A321F6DEE81BA7F5013C1660A97E601C /* FAButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FAButton/FAButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FAButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FAButton/FAButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FAButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC97416C33DEEE511B658292D19747A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A321F6DEE81BA7F5013C1660A97E601C /* FAButton.xcconfig */;
 			buildSettings = {
@@ -765,29 +773,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		17A7FF8F567E454229764C2B5E1B4DE1 /* Build configuration list for PBXNativeTarget "FAButton-FAButton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2541B58B4B8F752C9F558EEE57BB202D /* Debug */,
-				67459AB2BFAD3A1212606BEB4380E1A8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
 				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		337957C034A5EE6F09301AC93176CF10 /* Build configuration list for PBXNativeTarget "FAButton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D9A5A1D2B34C85A88F063F522443ECE5 /* Debug */,
-				1488A4A75096E035C09190EA24C61FB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -806,6 +796,24 @@
 			buildConfigurations = (
 				38D24C12B7F4DCD39D9B58488B3D27D0 /* Debug */,
 				F50DBF998A708DD3D475E2E4FA4A8FB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		884B520B0BCA0FF7B71940C8E4021C19 /* Build configuration list for PBXNativeTarget "FAButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC97416C33DEEE511B658292D19747A4 /* Debug */,
+				E90567B3FA721CBE07E4905C79A050D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9AF9FAB9620264BAF26063D57B686CC /* Build configuration list for PBXNativeTarget "FAButton-FAButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99DB4796CA1E01887805DC86728AA745 /* Debug */,
+				7B4ACC1DC7030B9BDDFA3033C24D8EF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

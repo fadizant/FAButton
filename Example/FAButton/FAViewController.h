@@ -8,6 +8,10 @@
 
 @import UIKit;
 
+#import "FACircleUIButton.h"
+#import "UIButton+FAImageFromURL.h"
+
 @interface FAViewController : UIViewController
+@property (weak, nonatomic) IBOutlet FACircleUIButton *button;
 
 @end
