@@ -1,0 +1,16 @@
+PODS:
+  - FAButton (0.1.0)
+
+DEPENDENCIES:
+  - FAButton (from `../`)
+
+EXTERNAL SOURCES:
+  FAButton:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FAButton: 1762d2062055c6fad6928b9ead9d70fb285dcaa0
+
+PODFILE CHECKSUM: 598c17d123be1a58983232ed402aaffdafbfc07b
+
+COCOAPODS: 1.0.1

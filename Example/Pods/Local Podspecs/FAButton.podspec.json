@@ -1,0 +1,26 @@
+{
+  "name": "FAButton",
+  "version": "0.1.0",
+  "summary": "A short description of FAButton.",
+  "homepage": "https://github.com/fadizant/FAButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fadizant": "fadizant@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/fadizant/FAButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FAButton/Classes/**/*",
+  "resource_bundles": {
+    "FAButton": [
+      "FAButton/Assets/*.png"
+    ]
+  }
+}

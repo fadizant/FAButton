@@ -1,0 +1,6 @@
+framework module Pods_FAButton_Example {
+  umbrella header "Pods-FAButton_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

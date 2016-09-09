@@ -4,8 +4,6 @@ target 'FAButton_Example' do
   pod 'FAButton', :path => '../'
 
   target 'FAButton_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
+    pod 'FAButton', :path => '../'
   end
 end

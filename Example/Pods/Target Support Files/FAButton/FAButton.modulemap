@@ -1,0 +1,6 @@
+framework module FAButton {
+  umbrella header "FAButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
