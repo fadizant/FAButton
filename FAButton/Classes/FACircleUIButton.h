@@ -25,9 +25,9 @@ IB_DESIGNABLE
 /**
  * Corner
  */
-@property (nonatomic) IBInspectable CGFloat Corner;
+@property (nonatomic) IBInspectable CGFloat borderCorner;
 /**
  * isCorner
  */
-@property (nonatomic) IBInspectable BOOL isCorner;
+@property (nonatomic) IBInspectable BOOL isCircle;
 @end

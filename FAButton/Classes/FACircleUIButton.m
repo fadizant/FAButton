@@ -26,7 +26,7 @@
     self.layer.borderColor = [_borderColor CGColor];
     self.layer.borderWidth = _borderWidth;
     //circle Image
-    [self.layer setCornerRadius:_isCorner ? self.frame.size.height/2 :_Corner];
+    [self.layer setCornerRadius:_isCircle ? self.frame.size.height/2 :_borderCorner];
     [self.layer setMasksToBounds:YES];
     
 }
