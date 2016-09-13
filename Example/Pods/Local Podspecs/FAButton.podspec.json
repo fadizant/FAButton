@@ -1,7 +1,7 @@
 {
   "name": "FAButton",
   "version": "0.1.4",
-  "summary": "add image loader for button",
+  "summary": "add Thumb image for image loader",
   "homepage": "https://github.com/fadizant/FAButton",
   "license": {
     "type": "MIT",

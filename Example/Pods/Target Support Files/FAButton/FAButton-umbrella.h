@@ -1,5 +1,6 @@
 #import <UIKit/UIKit.h>
 
+#import "FAButton.h"
 #import "FACircleUIButton.h"
 #import "UIButton+FAImageFromURL.h"
 
