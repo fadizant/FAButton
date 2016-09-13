@@ -18,7 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    [_button setImageWithURL:@"https://www.apple.com/ac/structured-data/images/knowledge_graph_logo.png?201609052031"];
+    [_button setImageWithURL:@"https://www.apple.com/ac/structured-data/images/knowledge_graph_logo.png?201609052031" ThumbImage:[UIImage imageNamed:@"default-thumb"] buttonStatus:UIControlStateNormal];
 }
 
 - (void)didReceiveMemoryWarning

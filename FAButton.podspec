@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FAButton'
-  s.version          = '0.1.3'
-  s.summary          = 'add image loader for button'
+  s.version          = '0.1.4'
+  s.summary          = 'add Thumb image for image loader'
 
   s.homepage         = 'https://github.com/fadizant/FAButton'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'

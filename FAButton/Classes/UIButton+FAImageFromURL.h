@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UIButton (FAImageFromURL)
--(void) setImageWithURL:(NSString*)URL;
+-(void) setImageWithURL:(NSString*)URL ThumbImage:(UIImage*)Thumb buttonStatus:(UIControlState)State;
 @end

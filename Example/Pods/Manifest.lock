@@ -1,5 +1,5 @@
 PODS:
-  - FAButton (0.1.0)
+  - FAButton (0.1.4)
 
 DEPENDENCIES:
   - FAButton (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FAButton: 1762d2062055c6fad6928b9ead9d70fb285dcaa0
+  FAButton: 896e18ac438bca671ad5c89408f46dfaf8ffb89d
 
 PODFILE CHECKSUM: 598c17d123be1a58983232ed402aaffdafbfc07b
 

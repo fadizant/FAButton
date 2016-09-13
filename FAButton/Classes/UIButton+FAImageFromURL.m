@@ -18,12 +18,12 @@ static NSCache *cache;
 {
     cache = Cache;
 }
--(void) setImageWithURL:(NSString*)URL
+-(void) setImageWithURL:(NSString*)URL ThumbImage:(UIImage*)Thumb buttonStatus:(UIControlState)State
 {
     @try {
         
         if ([URL isEqual:[NSNull null]] || !URL) {
-            [self setImage:nil forState:UIControlStateNormal];
+            [self setImage:Thumb forState:State];
             return;
         }
         
@@ -32,12 +32,13 @@ static NSCache *cache;
         }
         
         if ([cache objectForKey:URL]) {
-            [self setImage:[cache objectForKey:URL] forState:UIControlStateNormal];
+            [self setImage:[cache objectForKey:URL] forState:State];
         } else {
+            [self setImage:Thumb forState:State];
             dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0ul);
             dispatch_async(queue, ^{
                 //To Do in background
-                NSString *Path = [self pathToImageWithKey:URL];
+                NSString *Path = [self pathToImageWithKey:[URL stringByReplacingOccurrencesOfString:@" " withString:@""]];
                 UIImage *imageFromURL = [self imageFromDisk:Path];
                 if ([[NSFileManager defaultManager] fileExistsAtPath:Path])
                 {
@@ -45,14 +46,19 @@ static NSCache *cache;
                 }
                 else
                 {
-                    imageFromURL = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:URL] options:NSDataReadingUncached error:nil]];
+                    imageFromURL = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[URL stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]] options:NSDataReadingUncached error:nil]];
                     [self saveImageToDisk:imageFromURL withKey:Path];
                 }
                 dispatch_async(dispatch_get_main_queue(), ^{
                     // update in main thread
-                    [self setImage:imageFromURL forState:UIControlStateNormal];
                     if(imageFromURL)
-                    [cache setObject:imageFromURL forKey:URL];
+                    {
+                        [cache setObject:imageFromURL forKey:URL];
+                        [self setImage:imageFromURL forState:State];
+                    }
+                    else
+                        [self setImage:Thumb forState:State];
+                    
                 });
             });
             
