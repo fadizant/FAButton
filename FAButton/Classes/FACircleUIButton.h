@@ -19,6 +19,29 @@ IB_DESIGNABLE
  */
 @property (nonatomic,retain) IBInspectable UIColor *borderColor;
 /**
+ * Normal Background Color
+ */
+@property (nonatomic,retain) IBInspectable UIColor *normalBackgroundColor;
+
+/**
+ * Selected Border Color
+ */
+@property (nonatomic,retain) IBInspectable UIColor *selectedBorderColor;
+/**
+ * Selected Background Color
+ */
+@property (nonatomic,retain) IBInspectable UIColor *selectedBackgroundColor;
+
+/**
+ * Highlighted Border Color
+ */
+@property (nonatomic,retain) IBInspectable UIColor *highlightedBorderColor;
+/**
+ * Highlighted Background Color
+ */
+@property (nonatomic,retain) IBInspectable UIColor *highlightedBackgroundColor;
+
+ /**
  * Border Width
  */
 @property (nonatomic) IBInspectable CGFloat borderWidth;

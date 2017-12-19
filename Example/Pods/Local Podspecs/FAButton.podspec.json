@@ -1,6 +1,6 @@
 {
   "name": "FAButton",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "summary": "add Thumb image for image loader",
   "homepage": "https://github.com/fadizant/FAButton",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/fadizant/FAButton.git",
-    "tag": "0.1.4"
+    "tag": "0.1.6"
   },
   "platforms": {
     "ios": "8.0"

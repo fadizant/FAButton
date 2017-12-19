@@ -7,106 +7,120 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03E14FAAD1A0F3E45EAD76CC005524E0 /* FAButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B570BD075AD824A7B60175B8EDEAA924 /* FAButton-dummy.m */; };
-		0CB420169D59BE9A1D450EB925AB4C79 /* FAButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E276A3DE018FFEBE9ABFC8A95DBBBC4D /* FAButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30C3B76AB6ADF109E873ADF0DD195A43 /* Pods-FAButton_Example-FAButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1555C0C8A094E535A4023E7E0B36D63 /* Pods-FAButton_Example-FAButton_Tests-dummy.m */; };
-		33F381B6F814FC769ACA0C696CF6010C /* FACircleUIButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 1628F87EF0E10C7767714470184B038E /* FACircleUIButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52BF35BCDDACC6D51F4145943244C0D4 /* Pods-FAButton_Example-FAButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A7A4362254199C7093CA920EF13513C /* Pods-FAButton_Example-FAButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		671FD579CC0AC83688EEEC0878B62C1F /* FAButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 11494489DDCEFAC9287C4787DAB9F53E /* FAButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		737D27594F8506C3329A0B8968982C79 /* FACircleUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2553AC61E0C1E97390B9B5D748049979 /* FACircleUIButton.m */; };
-		746116D3DDEBD98BD51BE47DF18A1FED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		A3DA5221CD343C00603C1685B47CA392 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		C2CA5513A7127FBB1D7B3C17DC4DE00F /* UIButton+FAImageFromURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 284D4998C6F5B3664C1641EC4EF318B8 /* UIButton+FAImageFromURL.m */; };
-		CF43AC0A4E896BFAE086F6E48F131DC9 /* UIButton+FAImageFromURL.h in Headers */ = {isa = PBXBuildFile; fileRef = BAF72606B968E1B5CBE84C5150EF3DBF /* UIButton+FAImageFromURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E90CB7E13C14A4B23AD0432CD461BFDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		F3A1D1EB5EF7DE12C6B551B0707DFD73 /* Pods-FAButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85934E3EDDAAE28A903C111C05C0D94D /* Pods-FAButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FFE5C605C84694DAA9A1E676219C70D8 /* Pods-FAButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F44197C9B1F0F8DA47B3DDBD7F2019F /* Pods-FAButton_Example-dummy.m */; };
+		1B0CA709B9AF972D8EA22DEFEF5FBB45 /* Pods-FAButton_Example-FAButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A7A4362254199C7093CA920EF13513C /* Pods-FAButton_Example-FAButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F614E069A689FB26489AB8389B1DC20 /* Pods-FAButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85934E3EDDAAE28A903C111C05C0D94D /* Pods-FAButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BC9263630087BDE86180F8AEC22FA3A /* UIButton+FAImageFromURL.h in Headers */ = {isa = PBXBuildFile; fileRef = D1E8EA5ED03DA55C20CB2076F854B834 /* UIButton+FAImageFromURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D6CA620A5C20A7DDA113DFFB4A78D69 /* FACircleUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EB98A2CBE68340D5DA9B5B04C0E09A /* FACircleUIButton.m */; };
+		4B23F8C3B91A147FF2C486FF19D26B66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8D57C5F0067E6445C88C550C49887F12 /* FACircleUIButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 405A4BA63016C01F1363A2500EECA2E6 /* FACircleUIButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D7C05E36AAFF791FE229ABFD019E1B8 /* FAButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7F08C88141685E058BB6A1944E700B /* FAButton-dummy.m */; };
+		B43C991D253162CB01A5158FB3914244 /* FAButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AA4A7424A1A145F6B763A803DF2C662 /* FAButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9F725ACD08BC22B908AB3BE15A9BC92 /* UIButton+FAImageFromURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 845A34819A86FEFB7CDC448E79C41A41 /* UIButton+FAImageFromURL.m */; };
+		CBEEC940D650098F43878516D7A32B88 /* Pods-FAButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F44197C9B1F0F8DA47B3DDBD7F2019F /* Pods-FAButton_Example-dummy.m */; };
+		E6F8CA04418B14AABAB0BE36A0319F7A /* Pods-FAButton_Example-FAButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1555C0C8A094E535A4023E7E0B36D63 /* Pods-FAButton_Example-FAButton_Tests-dummy.m */; };
+		E7E203EE37031FFF65F9FBD17237406A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E8B8605DB34FB2F2CE185560F173A6FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EA68EC355543154D2E61AD03AE99B149 /* FAButton.h in Headers */ = {isa = PBXBuildFile; fileRef = ACDBC99E07AD939AF424E340D8B4B9DD /* FAButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5E1DDF10AE0EA122CF60F428276ED745 /* PBXContainerItemProxy */ = {
+		24C57533BAD58990C71DCD100FCDE21F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CBC45B22A60B4F11B2604B5860F67F7E;
+			remoteGlobalIDString = CD346BA736CC1E28968160C9672DB0DA;
 			remoteInfo = FAButton;
 		};
-		F861EADDFE4D0719E004124905ED78C9 /* PBXContainerItemProxy */ = {
+		4D2F4B0BEC3EB5B656594A0ED816E2F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CBC45B22A60B4F11B2604B5860F67F7E;
+			remoteGlobalIDString = CD346BA736CC1E28968160C9672DB0DA;
 			remoteInfo = FAButton;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		02E0EE4E9979FD3D56721606605AABF7 /* Pods-FAButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FAButton_Example-resources.sh"; sourceTree = "<group>"; };
-		11494489DDCEFAC9287C4787DAB9F53E /* FAButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAButton.h; sourceTree = "<group>"; };
-		1628F87EF0E10C7767714470184B038E /* FACircleUIButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FACircleUIButton.h; sourceTree = "<group>"; };
 		1659D3F24B9FEB3E25CBF656E5C7EFDB /* Pods-FAButton_Example-FAButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAButton_Example-FAButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		183FFE58297AEF7ED1B8F10DCE055572 /* Pods-FAButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		18CFFB12F9AD247A4A4613DC8B817032 /* Pods-FAButton_Example-FAButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FAButton_Example-FAButton_Tests-resources.sh"; sourceTree = "<group>"; };
-		2553AC61E0C1E97390B9B5D748049979 /* FACircleUIButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FACircleUIButton.m; sourceTree = "<group>"; };
-		284D4998C6F5B3664C1641EC4EF318B8 /* UIButton+FAImageFromURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FAImageFromURL.m"; sourceTree = "<group>"; };
+		2081E01E4149CB472B1F46B4B6DA52A8 /* FAButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FAButton-prefix.pch"; sourceTree = "<group>"; };
+		279D5F0C993B88BE979E0A491C902A54 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		287AFCF2882FCAA6949A5432999EBC6D /* Pods-FAButton_Example-FAButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FAButton_Example-FAButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2941845691B035E65EF663A316B16FF7 /* Pods-FAButton_Example-FAButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FAButton_Example-FAButton_Tests.modulemap"; sourceTree = "<group>"; };
 		2C61563775C2B88D84129075919FFC6B /* Pods-FAButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FAButton_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3A7A4362254199C7093CA920EF13513C /* Pods-FAButton_Example-FAButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FAButton_Example-FAButton_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3F44197C9B1F0F8DA47B3DDBD7F2019F /* Pods-FAButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FAButton_Example-dummy.m"; sourceTree = "<group>"; };
-		44A9D69020630AC20F6EBB62B819441A /* FAButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FAButton-prefix.pch"; sourceTree = "<group>"; };
+		405A4BA63016C01F1363A2500EECA2E6 /* FACircleUIButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FACircleUIButton.h; path = FAButton/Classes/FACircleUIButton.h; sourceTree = "<group>"; };
 		4FA6C483D3B81B862DDCCC4E77FC1425 /* Pods-FAButton_Example-FAButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FAButton_Example-FAButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		58FB31769AC5A7809309FEF424899D66 /* FAButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FAButton.modulemap; sourceTree = "<group>"; };
 		5AE508593A205956530A747F603C8FF1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6DAF622395783F8200C05C5DBB18844E /* Pods-FAButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FAButton_Example.modulemap"; sourceTree = "<group>"; };
 		7A556CBB27CFCD0F6DE26ACE3CE8563B /* Pods_FAButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FAButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		845A34819A86FEFB7CDC448E79C41A41 /* UIButton+FAImageFromURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+FAImageFromURL.m"; path = "FAButton/Classes/UIButton+FAImageFromURL.m"; sourceTree = "<group>"; };
 		85934E3EDDAAE28A903C111C05C0D94D /* Pods-FAButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FAButton_Example-umbrella.h"; sourceTree = "<group>"; };
 		8611D4CF0DE998519D0B946F0C2D4B15 /* Pods-FAButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FAButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8AA4A7424A1A145F6B763A803DF2C662 /* FAButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FAButton-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		967C5FAF4C11D20B0CC1AB42F8A58E72 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A0E645A0BF14A3624DC1C5485CF14FFA /* FAButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FAButton.xcconfig; sourceTree = "<group>"; };
+		98EB98A2CBE68340D5DA9B5B04C0E09A /* FACircleUIButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FACircleUIButton.m; path = FAButton/Classes/FACircleUIButton.m; sourceTree = "<group>"; };
 		A36F1F91D2D5BC47433283081F3630B3 /* Pods-FAButton_Example-FAButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FAButton_Example-FAButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ACDBC99E07AD939AF424E340D8B4B9DD /* FAButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAButton.h; path = FAButton/Classes/FAButton.h; sourceTree = "<group>"; };
 		B3F0716635278A9BD1ABF8DE5A9641F9 /* Pods-FAButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FAButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B570BD075AD824A7B60175B8EDEAA924 /* FAButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FAButton-dummy.m"; sourceTree = "<group>"; };
-		B80B75AA97D3EF35958ED3346BE9059D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BAF72606B968E1B5CBE84C5150EF3DBF /* UIButton+FAImageFromURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+FAImageFromURL.h"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BB7F08C88141685E058BB6A1944E700B /* FAButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FAButton-dummy.m"; sourceTree = "<group>"; };
+		D1E8EA5ED03DA55C20CB2076F854B834 /* UIButton+FAImageFromURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+FAImageFromURL.h"; path = "FAButton/Classes/UIButton+FAImageFromURL.h"; sourceTree = "<group>"; };
 		D2883FFFF9AB5AF29C2DAAC193C91D66 /* Pods-FAButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAButton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E276A3DE018FFEBE9ABFC8A95DBBBC4D /* FAButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FAButton-umbrella.h"; sourceTree = "<group>"; };
 		F1555C0C8A094E535A4023E7E0B36D63 /* Pods-FAButton_Example-FAButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FAButton_Example-FAButton_Tests-dummy.m"; sourceTree = "<group>"; };
 		F15880B9D3579543241B03C08BF45119 /* Pods-FAButton_Example-FAButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAButton_Example-FAButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4AB7261447FD29F98A7AC69E415A374 /* FAButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FAButton.xcconfig; sourceTree = "<group>"; };
 		F74211B75258ABF43E7ABE09C3679598 /* Pods_FAButton_Example_FAButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FAButton_Example_FAButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A67AB06DAB14954D4522A29CE13553 /* FAButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FAButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9ADE7420210EE202106784016744B55 /* FAButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FAButton.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		33031BF235AEE3041BE1F1276C8FF143 /* Frameworks */ = {
+		E82882932F1224F4A179B9EFBAF1638F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E90CB7E13C14A4B23AD0432CD461BFDE /* Foundation.framework in Frameworks */,
+				E7E203EE37031FFF65F9FBD17237406A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C0340AD696F6A3DEB72247FD42409E7 /* Frameworks */ = {
+		EEB384877E405B17C41FE685500B4CCA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				746116D3DDEBD98BD51BE47DF18A1FED /* Foundation.framework in Frameworks */,
+				4B23F8C3B91A147FF2C486FF19D26B66 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5B979E47181DCA5B72E3DCF07F932FF /* Frameworks */ = {
+		F001DE3520D6149FBF07D0F17C4E92C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3DA5221CD343C00603C1685B47CA392 /* Foundation.framework in Frameworks */,
+				E8B8605DB34FB2F2CE185560F173A6FE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0525854C1275A3FF8789E754246444B3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9ADE7420210EE202106784016744B55 /* FAButton.modulemap */,
+				F4AB7261447FD29F98A7AC69E415A374 /* FAButton.xcconfig */,
+				BB7F08C88141685E058BB6A1944E700B /* FAButton-dummy.m */,
+				2081E01E4149CB472B1F46B4B6DA52A8 /* FAButton-prefix.pch */,
+				8AA4A7424A1A145F6B763A803DF2C662 /* FAButton-umbrella.h */,
+				279D5F0C993B88BE979E0A491C902A54 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FAButton";
+			sourceTree = "<group>";
+		};
 		18CE379DD12FE377CFD9C94600CD8B25 /* Pods-FAButton_Example-FAButton_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,24 +137,6 @@
 			);
 			name = "Pods-FAButton_Example-FAButton_Tests";
 			path = "Target Support Files/Pods-FAButton_Example-FAButton_Tests";
-			sourceTree = "<group>";
-		};
-		32CB9B2B923F54FF1A02A2DEC825EE61 /* FAButton */ = {
-			isa = PBXGroup;
-			children = (
-				761DE21D26DCF9A733B3543CAC806FBB /* FAButton */,
-				EE62090F5587403FBB6FC68EF1F22C8D /* Support Files */,
-			);
-			name = FAButton;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		4450A65BE81EA4309CDE0C82717977A9 /* Pods-FAButton_Example */ = {
@@ -180,143 +176,131 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		761DE21D26DCF9A733B3543CAC806FBB /* FAButton */ = {
-			isa = PBXGroup;
-			children = (
-				D4B81A42E5FCC87FFADC89F5921A8109 /* Classes */,
-			);
-			path = FAButton;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				901E6E10EDD267F63EA1F651F1B94EAF /* Development Pods */,
+				D5DF87F7CA671CCA0EF391BA02E21A16 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				563805A8C1439C5726EAA68700438353 /* Products */,
 				54D6B136CFADB3799EE8354C99720105 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		901E6E10EDD267F63EA1F651F1B94EAF /* Development Pods */ = {
+		BC24CC9E3AF86DFF66C700F89ECBEA16 /* FAButton */ = {
 			isa = PBXGroup;
 			children = (
-				32CB9B2B923F54FF1A02A2DEC825EE61 /* FAButton */,
+				ACDBC99E07AD939AF424E340D8B4B9DD /* FAButton.h */,
+				405A4BA63016C01F1363A2500EECA2E6 /* FACircleUIButton.h */,
+				98EB98A2CBE68340D5DA9B5B04C0E09A /* FACircleUIButton.m */,
+				D1E8EA5ED03DA55C20CB2076F854B834 /* UIButton+FAImageFromURL.h */,
+				845A34819A86FEFB7CDC448E79C41A41 /* UIButton+FAImageFromURL.m */,
+				0525854C1275A3FF8789E754246444B3 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = FAButton;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D4B81A42E5FCC87FFADC89F5921A8109 /* Classes */ = {
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				11494489DDCEFAC9287C4787DAB9F53E /* FAButton.h */,
-				1628F87EF0E10C7767714470184B038E /* FACircleUIButton.h */,
-				2553AC61E0C1E97390B9B5D748049979 /* FACircleUIButton.m */,
-				BAF72606B968E1B5CBE84C5150EF3DBF /* UIButton+FAImageFromURL.h */,
-				284D4998C6F5B3664C1641EC4EF318B8 /* UIButton+FAImageFromURL.m */,
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
-			path = Classes;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		EE62090F5587403FBB6FC68EF1F22C8D /* Support Files */ = {
+		D5DF87F7CA671CCA0EF391BA02E21A16 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				58FB31769AC5A7809309FEF424899D66 /* FAButton.modulemap */,
-				A0E645A0BF14A3624DC1C5485CF14FFA /* FAButton.xcconfig */,
-				B570BD075AD824A7B60175B8EDEAA924 /* FAButton-dummy.m */,
-				44A9D69020630AC20F6EBB62B819441A /* FAButton-prefix.pch */,
-				E276A3DE018FFEBE9ABFC8A95DBBBC4D /* FAButton-umbrella.h */,
-				B80B75AA97D3EF35958ED3346BE9059D /* Info.plist */,
+				BC24CC9E3AF86DFF66C700F89ECBEA16 /* FAButton */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FAButton";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		96D723D574923EC1C92CDE15E6D8757F /* Headers */ = {
+		421EEB283BCF8EF54BF0AD43A93529AA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CB420169D59BE9A1D450EB925AB4C79 /* FAButton-umbrella.h in Headers */,
-				671FD579CC0AC83688EEEC0878B62C1F /* FAButton.h in Headers */,
-				33F381B6F814FC769ACA0C696CF6010C /* FACircleUIButton.h in Headers */,
-				CF43AC0A4E896BFAE086F6E48F131DC9 /* UIButton+FAImageFromURL.h in Headers */,
+				1B0CA709B9AF972D8EA22DEFEF5FBB45 /* Pods-FAButton_Example-FAButton_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D92E150A6A8974C6E6DCFF623AB4EB45 /* Headers */ = {
+		9B423D6302866955ECEE904FBF7ED4CB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3A1D1EB5EF7DE12C6B551B0707DFD73 /* Pods-FAButton_Example-umbrella.h in Headers */,
+				1F614E069A689FB26489AB8389B1DC20 /* Pods-FAButton_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA6BFE6E5942A631282FCCF54ADBEED0 /* Headers */ = {
+		9EE8108D4926B776B61CA07530758A6D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52BF35BCDDACC6D51F4145943244C0D4 /* Pods-FAButton_Example-FAButton_Tests-umbrella.h in Headers */,
+				B43C991D253162CB01A5158FB3914244 /* FAButton-umbrella.h in Headers */,
+				EA68EC355543154D2E61AD03AE99B149 /* FAButton.h in Headers */,
+				8D57C5F0067E6445C88C550C49887F12 /* FACircleUIButton.h in Headers */,
+				2BC9263630087BDE86180F8AEC22FA3A /* UIButton+FAImageFromURL.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2D9A887CF9E6ADB5BA9FC5209E583F47 /* Pods-FAButton_Example */ = {
+		022BC28E2C588E53D153237C41CAF0AE /* Pods-FAButton_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D29F7D5EADB972AF478DFF1A18D5068 /* Build configuration list for PBXNativeTarget "Pods-FAButton_Example" */;
+			buildConfigurationList = 0C37A0E74764A237B4FF6E0EA64555BB /* Build configuration list for PBXNativeTarget "Pods-FAButton_Example" */;
 			buildPhases = (
-				DC3356FC6E85BE92F0DDD4C0C921AEFA /* Sources */,
-				A5B979E47181DCA5B72E3DCF07F932FF /* Frameworks */,
-				D92E150A6A8974C6E6DCFF623AB4EB45 /* Headers */,
+				C9F2F7EF159A7F7A383D00A45AAAD747 /* Sources */,
+				F001DE3520D6149FBF07D0F17C4E92C2 /* Frameworks */,
+				9B423D6302866955ECEE904FBF7ED4CB /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				514D805411D98F8C579337BB6F554EE5 /* PBXTargetDependency */,
+				D50C6A4E901FDDA4DAEDCEA9ECC17437 /* PBXTargetDependency */,
 			);
 			name = "Pods-FAButton_Example";
 			productName = "Pods-FAButton_Example";
 			productReference = 7A556CBB27CFCD0F6DE26ACE3CE8563B /* Pods_FAButton_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		768E777ED11D30FFB42C032DEBE399CE /* Pods-FAButton_Example-FAButton_Tests */ = {
+		88F134044B91DC77366F066C43FD423C /* Pods-FAButton_Example-FAButton_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8471081C003635D335416F0F15651081 /* Build configuration list for PBXNativeTarget "Pods-FAButton_Example-FAButton_Tests" */;
+			buildConfigurationList = 1CDCFCDF05CD1B1B6FDBBD79D70C2D75 /* Build configuration list for PBXNativeTarget "Pods-FAButton_Example-FAButton_Tests" */;
 			buildPhases = (
-				5308891533A2F7E8EB752E591D571E50 /* Sources */,
-				33031BF235AEE3041BE1F1276C8FF143 /* Frameworks */,
-				FA6BFE6E5942A631282FCCF54ADBEED0 /* Headers */,
+				6A2F3A0A318358B36D00A0C5511A5354 /* Sources */,
+				EEB384877E405B17C41FE685500B4CCA /* Frameworks */,
+				421EEB283BCF8EF54BF0AD43A93529AA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DCCBDC30F3EF90B009358B63135FDBDF /* PBXTargetDependency */,
+				2648A5E82093EE0014F71BCE24F6DC4E /* PBXTargetDependency */,
 			);
 			name = "Pods-FAButton_Example-FAButton_Tests";
 			productName = "Pods-FAButton_Example-FAButton_Tests";
 			productReference = F74211B75258ABF43E7ABE09C3679598 /* Pods_FAButton_Example_FAButton_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CBC45B22A60B4F11B2604B5860F67F7E /* FAButton */ = {
+		CD346BA736CC1E28968160C9672DB0DA /* FAButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8BEE1D182F2648C8F71D6FF3BA7E0C3 /* Build configuration list for PBXNativeTarget "FAButton" */;
+			buildConfigurationList = F1480E3D0EAA86E0BE53BD7279000DE4 /* Build configuration list for PBXNativeTarget "FAButton" */;
 			buildPhases = (
-				2F2957DF996C8E3A42C4D20640E6FBE7 /* Sources */,
-				5C0340AD696F6A3DEB72247FD42409E7 /* Frameworks */,
-				96D723D574923EC1C92CDE15E6D8757F /* Headers */,
+				CB0E244DA2F08F34D3773E44CB36E051 /* Sources */,
+				E82882932F1224F4A179B9EFBAF1638F /* Frameworks */,
+				9EE8108D4926B776B61CA07530758A6D /* Headers */,
 			);
 			buildRules = (
 			);
@@ -333,7 +317,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -348,116 +332,77 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CBC45B22A60B4F11B2604B5860F67F7E /* FAButton */,
-				2D9A887CF9E6ADB5BA9FC5209E583F47 /* Pods-FAButton_Example */,
-				768E777ED11D30FFB42C032DEBE399CE /* Pods-FAButton_Example-FAButton_Tests */,
+				CD346BA736CC1E28968160C9672DB0DA /* FAButton */,
+				022BC28E2C588E53D153237C41CAF0AE /* Pods-FAButton_Example */,
+				88F134044B91DC77366F066C43FD423C /* Pods-FAButton_Example-FAButton_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2F2957DF996C8E3A42C4D20640E6FBE7 /* Sources */ = {
+		6A2F3A0A318358B36D00A0C5511A5354 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03E14FAAD1A0F3E45EAD76CC005524E0 /* FAButton-dummy.m in Sources */,
-				737D27594F8506C3329A0B8968982C79 /* FACircleUIButton.m in Sources */,
-				C2CA5513A7127FBB1D7B3C17DC4DE00F /* UIButton+FAImageFromURL.m in Sources */,
+				E6F8CA04418B14AABAB0BE36A0319F7A /* Pods-FAButton_Example-FAButton_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5308891533A2F7E8EB752E591D571E50 /* Sources */ = {
+		C9F2F7EF159A7F7A383D00A45AAAD747 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30C3B76AB6ADF109E873ADF0DD195A43 /* Pods-FAButton_Example-FAButton_Tests-dummy.m in Sources */,
+				CBEEC940D650098F43878516D7A32B88 /* Pods-FAButton_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC3356FC6E85BE92F0DDD4C0C921AEFA /* Sources */ = {
+		CB0E244DA2F08F34D3773E44CB36E051 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFE5C605C84694DAA9A1E676219C70D8 /* Pods-FAButton_Example-dummy.m in Sources */,
+				9D7C05E36AAFF791FE229ABFD019E1B8 /* FAButton-dummy.m in Sources */,
+				3D6CA620A5C20A7DDA113DFFB4A78D69 /* FACircleUIButton.m in Sources */,
+				B9F725ACD08BC22B908AB3BE15A9BC92 /* UIButton+FAImageFromURL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		514D805411D98F8C579337BB6F554EE5 /* PBXTargetDependency */ = {
+		2648A5E82093EE0014F71BCE24F6DC4E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FAButton;
-			target = CBC45B22A60B4F11B2604B5860F67F7E /* FAButton */;
-			targetProxy = F861EADDFE4D0719E004124905ED78C9 /* PBXContainerItemProxy */;
+			target = CD346BA736CC1E28968160C9672DB0DA /* FAButton */;
+			targetProxy = 24C57533BAD58990C71DCD100FCDE21F /* PBXContainerItemProxy */;
 		};
-		DCCBDC30F3EF90B009358B63135FDBDF /* PBXTargetDependency */ = {
+		D50C6A4E901FDDA4DAEDCEA9ECC17437 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FAButton;
-			target = CBC45B22A60B4F11B2604B5860F67F7E /* FAButton */;
-			targetProxy = 5E1DDF10AE0EA122CF60F428276ED745 /* PBXContainerItemProxy */;
+			target = CD346BA736CC1E28968160C9672DB0DA /* FAButton */;
+			targetProxy = 4D2F4B0BEC3EB5B656594A0ED816E2F0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+		15C10800A749927FE08C4F2EF57B95DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1659D3F24B9FEB3E25CBF656E5C7EFDB /* Pods-FAButton_Example-FAButton_Tests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		38D24C12B7F4DCD39D9B58488B3D27D0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F15880B9D3579543241B03C08BF45119 /* Pods-FAButton_Example-FAButton_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-FAButton_Example-FAButton_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-FAButton_Example-FAButton_Tests/Pods-FAButton_Example-FAButton_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -466,164 +411,120 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		42496717C8D7E6E5A80FA98FF943BE46 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0E645A0BF14A3624DC1C5485CF14FFA /* FAButton.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FAButton/FAButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FAButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FAButton/FAButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FAButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		6E58C9F8DBA54A16405322E0CB8A34AE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 183FFE58297AEF7ED1B8F10DCE055572 /* Pods-FAButton_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-FAButton_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FAButton_Example/Pods-FAButton_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FAButton_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BC9A1C216F3CE9E3794921071462ECB0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0E645A0BF14A3624DC1C5485CF14FFA /* FAButton.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FAButton/FAButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FAButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FAButton/FAButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FAButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+		1CDAB5613991E411E5990BAF694995C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		D7136735C012DF2989990E1FAF3B46BE /* Release */ = {
+		2239BCA23065B04D41040A12579F9468 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2883FFFF9AB5AF29C2DAAC193C91D66 /* Pods-FAButton_Example.release.xcconfig */;
+			baseConfigurationReference = F4AB7261447FD29F98A7AC69E415A374 /* FAButton.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FAButton/FAButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FAButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FAButton/FAButton.modulemap";
+				PRODUCT_NAME = FAButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		77B95343AA9F0EECFC3C8EFF0052CE75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 183FFE58297AEF7ED1B8F10DCE055572 /* Pods-FAButton_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-FAButton_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-FAButton_Example/Pods-FAButton_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -635,28 +536,145 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
+			name = Debug;
+		};
+		7B62A85C412D689EF418FA67DA770A41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
 			name = Release;
 		};
-		F50DBF998A708DD3D475E2E4FA4A8FB0 /* Release */ = {
+		881E45FFF8F2E58DF6052183B36F7C52 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1659D3F24B9FEB3E25CBF656E5C7EFDB /* Pods-FAButton_Example-FAButton_Tests.release.xcconfig */;
+			baseConfigurationReference = D2883FFFF9AB5AF29C2DAAC193C91D66 /* Pods-FAButton_Example.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FAButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FAButton_Example/Pods-FAButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FAButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A94D49C9CECC089059554E6FA7BCEE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4AB7261447FD29F98A7AC69E415A374 /* FAButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FAButton/FAButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FAButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FAButton/FAButton.modulemap";
+				PRODUCT_NAME = FAButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9AF3FCD4DAF78A5BEC992715D01A9FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F15880B9D3579543241B03C08BF45119 /* Pods-FAButton_Example-FAButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-FAButton_Example-FAButton_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-FAButton_Example-FAButton_Tests/Pods-FAButton_Example-FAButton_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -668,43 +686,43 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0C37A0E74764A237B4FF6E0EA64555BB /* Build configuration list for PBXNativeTarget "Pods-FAButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77B95343AA9F0EECFC3C8EFF0052CE75 /* Debug */,
+				881E45FFF8F2E58DF6052183B36F7C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CDCFCDF05CD1B1B6FDBBD79D70C2D75 /* Build configuration list for PBXNativeTarget "Pods-FAButton_Example-FAButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF3FCD4DAF78A5BEC992715D01A9FBC /* Debug */,
+				15C10800A749927FE08C4F2EF57B95DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
-				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+				1CDAB5613991E411E5990BAF694995C5 /* Debug */,
+				7B62A85C412D689EF418FA67DA770A41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D29F7D5EADB972AF478DFF1A18D5068 /* Build configuration list for PBXNativeTarget "Pods-FAButton_Example" */ = {
+		F1480E3D0EAA86E0BE53BD7279000DE4 /* Build configuration list for PBXNativeTarget "FAButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6E58C9F8DBA54A16405322E0CB8A34AE /* Debug */,
-				D7136735C012DF2989990E1FAF3B46BE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8471081C003635D335416F0F15651081 /* Build configuration list for PBXNativeTarget "Pods-FAButton_Example-FAButton_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				38D24C12B7F4DCD39D9B58488B3D27D0 /* Debug */,
-				F50DBF998A708DD3D475E2E4FA4A8FB0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A8BEE1D182F2648C8F71D6FF3BA7E0C3 /* Build configuration list for PBXNativeTarget "FAButton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BC9A1C216F3CE9E3794921071462ECB0 /* Debug */,
-				42496717C8D7E6E5A80FA98FF943BE46 /* Release */,
+				2239BCA23065B04D41040A12579F9468 /* Debug */,
+				8A94D49C9CECC089059554E6FA7BCEE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

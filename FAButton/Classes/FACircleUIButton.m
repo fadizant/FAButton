@@ -23,7 +23,20 @@
     [super layoutSubviews];
     [self layoutIfNeeded];
     
-    self.layer.borderColor = [_borderColor CGColor];
+    if (self.selected) {
+        self.layer.borderColor = [_selectedBorderColor CGColor];
+        if(_selectedBackgroundColor)
+            self.layer.backgroundColor = [_selectedBackgroundColor CGColor];
+    } else if (self.highlighted) {
+        self.layer.borderColor = [_highlightedBorderColor CGColor];
+        if(_highlightedBackgroundColor)
+            self.layer.backgroundColor = [_highlightedBackgroundColor CGColor];
+    }else {
+        self.layer.borderColor = [_borderColor CGColor];
+        if(_normalBackgroundColor)
+            self.layer.backgroundColor = [_normalBackgroundColor CGColor];
+    }
+    
     self.layer.borderWidth = _borderWidth;
     //circle Image
     [self.layer setCornerRadius:_isCircle ? self.frame.size.height/2 :_borderCorner];
